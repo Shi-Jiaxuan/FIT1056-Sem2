@@ -12,7 +12,7 @@
             "id": 2,
             "name": "Bob Williams",
             "enrolled_course_ids": [
-                102
+                101
             ]
         }
     ],
@@ -35,7 +35,8 @@
             "instrument": "Piano",
             "teacher_id": 1,
             "enrolled_student_ids": [
-                1
+                1,
+                2
             ],
             "lessons": [
                 {
@@ -57,9 +58,7 @@
             "name": "Acoustic Guitar Fundamentals",
             "instrument": "Guitar",
             "teacher_id": 2,
-            "enrolled_student_ids": [
-                2
-            ],
+            "enrolled_student_ids": [],
             "lessons": [
                 {
                     "lesson_id": 3,
@@ -90,6 +89,11 @@
             "student_id": 2,
             "course_id": 102,
             "timestamp": "2025-07-14T16:02:45.654321"
+        },
+        {
+            "student_id": 1,
+            "course_id": 101,
+            "timestamp": "2025-09-07T23:16:46.890654"
         }
     ]
 }
